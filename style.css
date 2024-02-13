@@ -1,0 +1,99 @@
+.header{
+    background-color: white;
+    color: #ffffff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.header h1{
+    margin: 0;
+
+}
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+
+    
+}
+    .header ul li{
+        
+         margin-left: 10px;
+
+    }
+    .header ul li:first-child{
+        margin-left: auto;
+
+    }
+    .header ul li a{
+        color: #ffffff;
+text-decoration: none;
+
+
+
+
+    }
+
+    .banner {
+        background-color:lightblue;
+        color: #ffffff;
+        text-align: center;
+        padding: 50px 0;
+    
+    }
+    .banner h1{
+        margin: 0;
+        font-size: 36px;
+
+    }
+    .banner p{
+        margin: 20px 0 0;
+        font-size:  18px;
+        text-align: center;
+
+    
+    }
+    .button{
+        display: inline-block;
+        background-color:grey;
+        color: black;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size:  16px;
+
+
+    }
+    .row{
+          display: flex;
+          justify-content: space-around;
+          margin-top: 50px;
+    }
+     .colom{
+         flex-basis: 30px;
+         text-align: center;
+
+     }
+          .colom img{
+              width: 100%;
+              border-radius: 10px;
+              margin-bottom: 20px;
+
+          }
+          .colom h2{
+              font-size: 24px;
+              margin-bottom: 10px;
+          }
+          .colom p{
+              font-size: 16px;
+              margin: 0;
+              text-align: center;
+          }
+
+
